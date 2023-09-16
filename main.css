@@ -76,8 +76,7 @@ h1 {
     font-size: 20px;
   }
 }
-
-ul.actions {
+div.actions {
   margin-top: 5px;
   display: flex;
   cursor: default;
@@ -112,31 +111,7 @@ button,
   flex-shrink: 1;
   margin: 0 0 96px 96px;
   position: relative;
-  width: calc(33.33333% - 96px);
-}
-
-.posts article> :last-child {
-  margin-bottom: 0;
-}
-
-@media screen and (max-width: 1680px) {
-  .posts article {
-    width: calc(50% - 96px);
-  }
-}
-
-@media screen and (max-width: 736px) {
-  .posts {
-    margin: 0 0 32px 72px;
-    width: calc(100% + 72pxç);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .posts {
-    margin: 0 0 32px 0;
-    width: 100%;
-  }
+  width: 400px;
 }
 
 #wrapper {
