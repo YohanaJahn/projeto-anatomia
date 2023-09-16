@@ -1,7 +1,8 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
-:root{
+
+:root {
   --cor-principal: #000000;
   --cor-conteudo: #ffffff;
   --cor-bottom: rgb(29, 125, 214);
@@ -16,7 +17,7 @@
 
 html {
   box-sizing: border-box;
-  background-color: var(--cor-principal)
+  background-color: var(--cor-principal);
 }
 
 *,
@@ -76,7 +77,8 @@ h1 {
     font-size: 20px;
   }
 }
-div.actions {
+
+ul.actions {
   margin-top: 5px;
   display: flex;
   cursor: default;
@@ -92,7 +94,7 @@ button,
   display: inline-block;
   font-family: "Roboto Slab", serif;
   font-size: 12px;
-  margin-top: 10PX;
+  margin-top: 10px;
   margin-left: 15px;
   height: 56px;
   line-height: 56px;
@@ -126,37 +128,15 @@ button,
   width: 100%;
 }
 
-#main>.inner {
+#main > .inner {
   padding: 0 96px 1.6px 96px;
   margin: 0 auto;
   max-width: 110em;
 }
 
-#main>.inner>section {
-  padding: 96px 64px 0  0;
+#main > .inner > section {
+  padding: 96px 64px 0 0;
   border-top: solid 2px var(--cor-conteudo);
-}
-
- @media screen and (max-width: 1680px) {
-  #main>.inner {
-    padding: 0 80px 1.6px 8px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  #main>.inner {
-    padding: 0 64px 1.6px 64px;
-  }
-
-  #main>.inner>section {
-    padding: 64px 0 32px 0;
-  }
-}
-
-@media screen and (max-width: 736px) {
-  #main>.inner {
-    padding: 0 32px 1.6px 16px;
-  } 
 }
 
 #banner {
@@ -189,38 +169,6 @@ button,
   width: 100%;
 }
 
-@media (orientation: portrait) {
-  #banner {
-    flex-direction: column-reverse;
-  }
-
-  #banner h1 br {
-    display: none;
-  }
-
-  #banner .content {
-    flex-grow: 0;
-    flex-shrink: 0;
-    width: 100%;
-  }
-
-  #banner .image {
-    flex-grow: 0;
-    flex-shrink: 0;
-    margin: 0 0 64px 0;
-    height: 400px;
-    max-height: 50vh;
-    min-height: 288px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  #banner .image {
-    max-height: 35vh;
-  }
-}
-
 .dp-menu {
   width: 1000px;
 }
@@ -229,8 +177,7 @@ button,
   list-style-type: none;
   background-color: var(--cor-principal);
   font-size: 18px;
-  font-family: 'Times New Roman', Times, serif;
-
+  font-family: "Times New Roman", Times, serif;
 }
 
 .dp-menu ul li {
@@ -243,7 +190,7 @@ button,
   text-decoration: none;
   padding: 15px;
   display: inline-block;
-  transition: background .3s;
+  transition: 0.3s;
 }
 
 .dp-menu ul li a:hover {
@@ -270,6 +217,6 @@ button,
   margin-left: 95px;
   margin-bottom: 50px;
 }
-.fonte{
-  margin-top: 10px
+.fonte {
+  margin-top: 10px;
 }
