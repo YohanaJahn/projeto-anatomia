@@ -55,7 +55,7 @@ body {
 .dp-menu ul ul {
   display: none;
   position: absolute;
-  width: 130px;
+  width: 140px;
   left: 0;
 }
 
@@ -79,11 +79,13 @@ body {
 
 .Titulo{
   text-align: center;
-  margin-top: 12px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  margin-top: 6px;
 }
 .container{
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
+  line-height: 1.5rem;
   margin-top: 3cm;
   margin-left: 3cm;
   margin-right: 2cm;
@@ -97,12 +99,13 @@ body {
   margin-top: 8px;
 }
 .imagem{
-  width: 500px;
+  width: 400px;
 }
 .referencia-img{
   font-size: 10pt !important;
   line-height: 1;
   text-align: center;
+  margin-bottom: 8px;
 }
 .referencias{
   margin-top: 8px;
